@@ -1,0 +1,45 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+#scrollable {
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.charts {
+  min-height:400px;
+}
+
+#myTable {
+  width: 100%;
+}
+
+.column-one {
+  width: 15%;
+}
+
+.column-two {
+  width: 15%;
+}
+
+.column-three {
+  width: 70%;
+}
+
+.receiver {
+  border-left: 0px;
+}
+
+thead {
+  background-color: white;
+}
+
+th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
